@@ -1,13 +1,21 @@
 {
   "name": "node-red-contrib-hdb",
   "version": "0.0.2",
-  "description": "Node-RED node for SAP HANA.",
+  "description": "Node-RED node for the JavaScript based SAP HANA database client HDB.",
   "main": "103-hdb.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Oliver Beyer",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hartingmica/node-red-contrib-hdb.git"
+  },
+  "author": "Dr. Oliver Beyer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hartingmica/node-red-contrib-hdb/issues"
+  },
+  "homepage": "https://github.com/hartingmica/node-red-contrib-hdb#readme",
   "dependencies": {
     "hdb": "^0.11.0"
   }
